@@ -6,7 +6,7 @@ repositories {
 }
 
 dependencies {
-   compile(name:'ScanditBarcodeScanner', ext:'aar')
-   compile(name:'ScanditOCR', ext:'aar')
-   compile "com.android.support:appcompat-v7:25.0.0"
+   implementation(name:'ScanditBarcodeScanner', ext:'aar')
+   implementation(name:'ScanditOCR', ext:'aar')
+   implementation "com.android.support:appcompat-v7:25.0.0"
 }
