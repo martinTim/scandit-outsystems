@@ -1,0 +1,12 @@
+
+repositories {
+    flatDir {
+        dirs 'libs', 'src/main/libs'
+    }
+}
+
+dependencies {
+   compile(name:'ScanditBarcodeScanner', ext:'aar')
+   compile(name:'ScanditOCR', ext:'aar')
+   compile "com.android.support:appcompat-v7:25.0.0"
+}
